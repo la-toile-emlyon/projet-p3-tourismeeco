@@ -1,1 +1,14 @@
 /* Le code CSS spécifique à la page de documentation */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+    margin-bottom: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+section{
+    width: 78%;
+}

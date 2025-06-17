@@ -7,154 +7,271 @@
   <title>Projet - Page d'accueil</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link href="index.css" rel="stylesheet" type="text/css" />
-  <script src="script.js" type="text/javascript"></script>
+  <script src="script.js" type="text/javascript" defer></script>
 </head>
-
-
-
-<!-- HEADER -->
-
-<header>
-  <a href=""><img src="asset/logo propotype.jpg" alt="logo du site"></a>
-  <nav>
-    <ul>
-      <li>Notre objectif</li>
-      <li>Avantages</li>
-      <li>Chiffres</li>
-      <li>Fonctionalités</li>
-      <li>Avis</li>
-    </ul>
-  </nav>
-  <a href="doc.html">
-    <p>Documentation</p>
-  </a>
-  <a href="">
-    <p>Télécharger</p>
-  </a>
-</header><!-- FIN -->
 
 <body>
 
-  <!-- Section 1 - HERO -->
+  <!-- HEADER -->
 
-  <section>
-    <!-- div de gauche -->
-    <div>
-      <div>
-        <H1>La nature au coeur de ton voyage</H1>
-        <H2>Embarque pour un voyage qui te fait du bien</H2>
-      </div>
-      <div>
-        <img src="asset/télécharger AppStore.png" alt="Télécharger Apple">
-        <img src="asset/télécharger Playstore.png" alt="télécharger PlayStore">
-      </div>
-      <div>
-        <img src="" alt="QR code">
-      </div>
+  <header class="flex spaceBetween alignCenter ">
+
+    <div class="w50 ">
+      <a href="">
+        <img src="asset/Logo GreenStay.jpg" alt="logo du site" class="logo"></a>
     </div>
-    <!-- Div de droite - Image de droite -->
-    <div>
-      <img src="" alt="">
+
+    <div class="w50">
+      <nav>
+        <ul class="flex gap22 none justify-end alignCenter">
+          <li>
+            <a href="" class="noLine green">Accueil</a>
+          </li>
+          <li>
+            <a href="doc.html" class="noLine green">Documentation
+            </a>
+          </li>
+          <li>
+            <a href="" class="noLine btn white">Télécharger L'application</a>
+          </li>
+        </ul>
+      </nav>
+
     </div>
-  </section><!-- FIN SECTION 1 - HERO -->
 
-  <!-- SECTION 2 OBJECTIF -->
 
+  </header>
+
+  <!-- HERO -->
+
+  <section class="sectionHero bgBlue">
+
+    <div class="container flex spaceBetween bgHero alignCenter">
+
+      <!-- div de gauche -->
+
+      <div class="pad50 w50">
+        <h1 class="top20">La nature au coeur de ton voyage</h1>
+        <h2 class="top20">Embarque pour un voyage qui te fait du bien</h2>
+        <a href="" class="btn white top50">Télécharger L'application</a>
+      </div>
+
+      <!-- Div de droite - Image de droite -->
+      <div class="w50">
+        <img src="asset/cuate.png" alt="" class="w100">
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--CONTEXTE -->
+
+  <section class="top50 containerSection">
+
+    <h2 class="textCenter">L’histoire de GreenStay</h2>
+
+    <div class="top30 container flex spaceBetween">
+
+      <!-- PARTIE DE GAUCHE -->
+
+      <div class="w50 top50">
+
+        <h3>Pourquoi GreenStay ?</h3>
+
+        <p class="top30 green line ">
+          Une application née d’un besoin simple : voyager autrement, sans se perdre ni se priver.<br> Ne pas chercher
+          la perfection, juste des alternatives concrètes : des idées de destinations accessibles en train, des astuces
+          pour camper sans stress, des lieux écoresponsables où se sentir bien.<br> Alors, on a imaginé une application
+          pour aider à franchir le pas. Une appli qui ne juge pas, mais qui guide. Qui inspire, conseille, rassure. <br>
+          Parce que faire mieux, c’est déjà beaucoup. Et parce que derrière chaque petite action, il y a un pas vers un
+          voyage plus
+          libre, plus doux, plus vivant, plus éco.
+        </p>
+
+      </div>
+
+      <!-- PARTIE DE DROITE -->
+
+      <div class="w50">
+        <img src="asset/Telephones.png" alt="" class="w100">
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- En quelques chiffres -->
+  <section class="containerSection">
+
+    <h3> En quelques chiffres...</h3>
+
+    <div class="flex spaceBetween">
+    
+
+      <div class="w20">
+
+        <h2></h2>
+        <p></p>
+
+      </div>
+
+      <div class="w20">
+
+        <h2></h2>
+        <p></p>
+
+      </div>
+
+      <div class="w20">
+
+        <h2></h2>
+        <p></p>
+
+      </div>
+
+      <div class="w20">
+
+        <h2></h2>
+        <p></p>
+        
+      </div>
+     
+      
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- POURQUOI NOUS CHOISIR 
   <section>
-    <H2></H2>
-    <h1>
-      <p></p>
-    </h1>
-    <img src="" alt="">
-  </section><!-- FIN SECTION 2 -->
+    <div>  
+      <h2>Pourquoi Nous choisir</h2>
+      <div>
+        <div>
+          <img src="" alt="">
+          <p>Offrez-vous plus, sans payer plus !</p>
+          <p></p>
+        </div>
+      </div>
+      <div>
+        <div> 
+          <img src="" alt="">
+          <p>Sélectionner un joker non compris dans l’éco Score</p>
+          <p></p>
+        </div>
+        <img src="" alt="">
+      </div>
+      <div>
+        <div> 
+          <p>Personnaliser son voyage en prenant en compte le Score éco Ethique</p>
+        </div>
+        <img src="" alt="">
+      </div>
+      <div>
+        <div> 
+          <p>Réserver rapidement son voyage grâce à notre comparateur de prix</p>
+        </div>
+        <img src="" alt="">
+      </div>
 
-  <!-- Section 3 - AVANTAGES -->
+  </section>
 
+  
   <section>
     <h2>Avantages</h2>
     <p>Pourquoi nous choisir ?</p>
-    <div> <!-- DIV PRINCIPALE -->
-      <!-- div 1 -->
+    <div>
+     
       <div>
-        <P>Gratuité complète 100%</P>
+        <p>Gratuité complète 100%</p>
       </div>
-      <!-- DIV 2 -->
-      <Div>
-        <P>Accessibilité (réserver tout à un seul endroit)</P>
-      </Div>
-      <!-- DIV 3 -->
+      DIV 2 
       <div>
-        <P>Eco Score (propositions éco responsable)</P>
+        <p>Accessibilité (réserver tout à un seul endroit)</p>
       </div>
-      <!-- DIV 4 -->
-      <Div>
-        <P>Personnalisation de A à Z</P>
-      </Div>
+      <DIV 3 
+      <div>
+        <p>Eco Score (propositions éco responsable)</p>
+      </div>
 
-    </div><!-- FIN DE DIV PRINCIPALE -->
-  </section><!-- FIN SECTION 3 -->
+      DIV 4 
+      <div>
+        <p>Personnalisation de A à Z</p>
+      </div>
 
-  <!-- Section 4 - Fonctionnalités -->
+    </div>
+  </section>
 
+
+  
   <section>
-    <div> <!-- Carte 1 -->
-      <div>
-        <p>Sélectionner les critères selon l’envie du moment</p>
-      </div>
-      <img src="" alt="">
-    </div>
-    <div>
-      <div> <!-- Carte 2 -->
-        <p>Sélectionner un joker non compris dans l’éco Score</p>
-      </div>
-      <img src="" alt="">
-    </div>
-    <div>
-      <div> <!-- Carte 3 -->
-        <p>Personnaliser son voyage en prenant en compte le Score éco Ethique</p>
-      </div>
-      <img src="" alt="">
-    </div>
-    <div>
-      <div> <!-- Carte 4 -->
-        <p>Réserver rapidement son voyage grâce à notre comparateur de prix</p>
-      </div>
-      <img src="" alt="">
-    </div>
-  </section><!-- FIN SECTION 4 -->
-
-  <!-- Section 5 - CHIFFRES -->
-
-  <section>
-    <H2> Quelques Chiffres</H2>
-    <div>
+    <h2> Quelques Chiffres</h2>
+    <div class="card">
       <img src="" alt="">
       <h3>Transports</h3>
       <p></p>
     </div>
-    <div>
+    <div class="card">
       <img src="" alt="">
       <h3>Logements</h3>
       <p></p>
     </div>
-    <div>
+    <div class="card">
       <img src="" alt="">
       <h3>Repas</h3>
       <p></p>
     </div>
-    <div>
+    <div class="card">
       <img src="" alt="">
       <h3>Sports</h3>
       <p></p>
     </div>
-  </section><!-- FIN SECTION 5 -->
+  </section>
 
-  <!-- Section 6 - Avis Clients -->
-
+  
   <section>
     <h3>Avis Clients</h3>
 
-    <div> <!-- Avis client 1 -->
+    <div> 
       <div>
         <img src="" alt="">
       </div>
@@ -164,7 +281,7 @@
         <img src="" alt="">
       </div>
     </div>
-    <div> <!-- Avis Client 2 -->
+    <div> 
       <div>
         <img src="" alt="">
       </div>
@@ -175,7 +292,7 @@
       </div>
     </div>
     <div>
-      <div> <!-- Avis Client 3 -->
+      <div> 
         <img src="" alt="">
       </div>
       <div>
@@ -184,27 +301,26 @@
         <img src="" alt="">
       </div>
     </div>
-  </section><!-- FIN SECTION 6 -->
+  </section>
 
-  <!-- Footer -->
-
+  
   <section>
-    <div> <!-- Footer côté gauche -->
+    <div> 
       <img src="" alt="LOGO">
       <h3></h3>
       <img src="asset/télécharger AppStore.png" alt="Télécharger Apple">
       <img src="asset/télécharger Playstore.png" alt="télécharger PlayStore">
     </div>
-    <div> <!-- Footer côté droit -->
+    <div> Footer côté droit 
       <img src="asset/icons facebook.png" alt="Facebook">
       <img src="asset/icons instagram.png" alt="Instagram">
       <img src="asset/icons linkedin.png" alt="Linkedin">
     </div>
-    <div> <!-- Footer - Bas -->
+    <div> 
       <p>© 2025 La toile - Tous droits réservés.</p>
     </div>
-  </section><!-- FIN DES SECTIONS -->
+  </section>
 
-</body><!-- FIN BODY -->
+</body>
 
-</html><!-- FIN HTML -->
+</html>
