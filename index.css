@@ -206,6 +206,9 @@ h3 {
     width: 100%;
 }
 
+.top10{
+    margin-top: 10px;
+}
 .top20 {
     margin-top: 20px;
 }
@@ -218,13 +221,22 @@ h3 {
     margin-top: 50px;
 }
 
+.top70{
+    margin-top: 70px;
+}
+
 .top100 {
     margin-top: 100px;
 }
 
-.p50 {
-    padding: 0px 50px;
+.m50{
+    margin-top: 50px;
 }
+
+.pad50 {
+    padding-top: 50px;
+}
+
 
 /*COULEUR*/
 
@@ -234,6 +246,12 @@ h3 {
 
 .white {
     color: white;
+}
+
+/*BACKGROUND*/
+
+.bgGreen {
+    background-color: #006C4C;
 }
 
 .bgRed {
@@ -246,4 +264,36 @@ h3 {
 
 .line{
     line-height: 24px;
+}
+
+/*CHIFFRES*/
+
+.cercleVert {
+    background-color: #006C4C;
+    color: white;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.size{
+    font-size: 60px;
+}
+
+/*CARTE*/
+
+.card {
+    background-color: white;
+    padding: 50px 20px;
+    border-radius: 10px;
+    color: #006C4C;
+    text-align: center;
+    align-items: center;
+    line-height: 25px;
+    margin-bottom: 50px;
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+}
+
+.weight{
+    font-weight: 600;
 }

@@ -30,12 +30,12 @@
 
   </header>
 
-  <main>
+  <main class="flex"> <!-- MAIN -->
 
-    <div> <!-- DIV GAUCHE -->
+    <div class=""> <!-- DIV GAUCHE -->
 
       <!-- SECTION 2 - HERO - BOUTON SELECTION -->
-      <section> 
+      <section class="sticky">
         <ul>
           <li>Contexte</li>
           <li>Problèmatique</li>
@@ -46,13 +46,13 @@
           <li>Nos futures améliorations</li>
         </ul>
       </section>
-    </div>
+    </div> <!-- FERMETURE DIV GAUCHE -->
 
 
     <div> <!-- DIV DROITE -->
-      
-     <!-- SECTION 3 - CONTEXTE -->
-      <section class="section">  
+
+      <!-- SECTION 3 - CONTEXTE -->
+      <section class="section">
         <div>
           <h2>Contexte</h2>
           <p>Une application née d’un besoin simple : voyager autrement, sans se perdre ni se priver. Ne pas chercher la
@@ -104,42 +104,10 @@
 
       </section>
 
-      <!-- SECTION 6 - CARTE MARIE BIO -->
+      <!-- SECTION 6 - IMAGE BIO MARIE -->
       <section>
         <div>
-          <img src="" alt="">
-          <h3>Marie Dupuis</h3>
-          <div> <!-- Age -->
-            <p>Age</p>
-            <p>Localisation</p>
-            <p>Travail</p>
-          </div>
-          <div> <!-- 22 ans -->
-            <p>22 ans</p>
-            <p>Paris</p>
-            <p>Etudiante en Sociologie</p>
-          </div>
-        </div>
-        <div> <!-- Bibliographie -->
-          <h3>Bibliographie</h3>
-          <p>Une étudiante sociologie, qui vit en colocation. Elle aime voyager, aime cuisiner, découvrir de nouvelles
-            choses. De nature curieuse et souriante, elle ne fait pas toujours attention à l’écologie et l’impact
-            environnemental que les voyages peuvent avoir.</p>
-        </div>
-        <div> <!-- Objectifs -->
-          <h3>Objectifs</h3>
-          <ul>
-            <li>Réussir ses études</li>
-            <li>Faire un premier pas vers l’ecologie</li>
-          </ul>
-        </div>
-        <div> <!-- Pain point -->
-          <h3>Pain point</h3>
-          <ul>
-            <li>Pression sociale</li>
-            <li>Habitude de consommation bien encrée</li>
-            <li>Voyager responsable et écologique coûte cher et est moins confortable</li>
-          </ul>
+       <img src="asset/Documentation/Bio Marie Personna.jpg" alt="Bio Marie">
         </div>
 
       </section>
@@ -147,19 +115,21 @@
       <!-- SECTION 7 - USERFLOW -->
       <section>
         <h2>Userflow</h2>
-        <img src="" alt="">
+        <img src="asset/Documentation/UserFlow.png" alt="UserFlow">
       </section>
 
       <!-- SECTION 8 - LOW FIDELITY -->
       <section>
         <h2>La solution</h2>
-        <H3> Low FI</H3>
+        <h3> Low FI</h3>
         <div class="">
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
+          <img src="asset/Documentation/Pages 0-2 LowFi.png" alt="premiere page de LowFi">
+          <img src="asset/Documentation/Pages 3-5 LowFi.png" alt="Deuxième Page de LowFi">
+          <img src="asset/Documentation/Pages 6-8 LowFi.png" alt="">
+          <img src="asset/Documentation/Page 9-11 LowFi.png" alt="">
+
+
         </div>
-        <img src="" alt="">
         <h3>Mid FI</h3>
         <div>
           <img src="" alt="">
@@ -167,13 +137,25 @@
           <img src="" alt="">
         </div>
         <h3>Hight FI - Prototype</h3>
-        <iframe src="https://www.figma.com/proto/kCIWkk5yXzfPAzZvAfUUuv/Assia---Cynthia---Hermine---J%C3%A9r%C3%A9mie?node-id=3888-1473&p=f&t=gfSkYWao2RpwCVtA-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=3877%3A1533" frameborder="0"></iframe>
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+          src="https://embed.figma.com/proto/kCIWkk5yXzfPAzZvAfUUuv/Assia---Cynthia---Hermine---J%C3%A9r%C3%A9mie?node-id=3888-1473&p=f&scaling=scale-down&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=3877%3A1533&embed-host=share"
+          allowfullscreen></iframe>
 
       </section>
 
       <!-- SECTION 9 - MID FIDELITY -->
       <section>
-
+        <div> <!-- Photos MidFi -->
+          <img src="asset/Documentation/Page de lancement MidFy.png" alt="">
+          <img src="asset/Documentation/Page 2 MidFy.png" alt="">
+          <img src="asset/Documentation/Page 3 MidFy.png" alt="">
+          <img src="asset/Documentation/Page 4 MidFy.png" alt="">
+          <img src="asset/Documentation/Page 5 MidFy.png" alt="">
+          <img src="asset/Documentation/Page 6 MidFy.png" alt="">
+          <img src="asset/Documentation/Page 7 MidFy.png" alt="">
+          <img src="asset/Documentation/Page 8 MidFy.png" alt="">
+          <img src="asset/Documentation/Page 9 MidFy.png" alt="">
+        </div>
       </section>
 
       <!-- SECTION 10 - HIGH FIDELITY -->
@@ -181,31 +163,82 @@
 
       </section>
 
-      <!-- SECTION 11 - RETOURS TESTS UTILISATEURS 1 -->
+      <!-- SECTION 11 - RETOURS TESTS UTILISATEURS -->
       <section>
+        <div> <!-- Carte 1 -->
+          <h3>“Fixer les barres en haut et en bas pour qu’elles ne bougent pas lors du scroll”</h3>
+          <div>
+            <img src="asset/Documentation/Retour utilisateur 1.png" alt="">
+            <p>Avant</p>
+          </div>
+          <div>
+            <img src="asset/Documentation/Retour utilisateur 1.1.png" alt="">
+            <p>Après</p>
+          </div>
+        </div>
+        <div> <!-- Carte 2 -->
+          <h3>“Carte à harmoniser”</h3>
+          <div>
+            <img src="asset/Documentation/Retour utilisateur 2.png" alt="">
+            <p>Avant</p>
+          </div>
+          <div>
+            <img src="asset/Documentation/Retour utilisateur 2.1.png" alt="">
+            <p>Après</p>
+          </div>
+        </div>
+        <div> <!-- Carte 3 -->
+          <h3>“Remplacer “Valider” par “Réserver mon voyage””</h3>
+          <div>
+            <img src="asset/Documentation/Retour utilisateur 3.png" alt="">
+            <p>Avant</p>
+          </div>
+          <div>
+            <img src="asset/Documentation/Retour utilisateur 3.1.png" alt="">
+            <p>Après</p>
+          </div>
+        </div>
 
       </section>
 
-      <!-- SECTION 12 - RETOURS TESTS UTILISATEURS 2 -->
+      <!-- SECTION 12 - NOS FUTURES AMELIORATIONS -->
       <section>
-
+        <div>
+          <h3>Nos futures améliorations :</h3>
+          <ol>
+            <li>1. Éviter que les icônes de logement et d’activités sportives ne se déplacent lorsque le point joker
+              apparaît.</li>
+            <li>2. Fixer l’en-tête de la page alternative.</li>
+            <li>3. Changer les images de la page récapitulative.</li>
+          </ol>
+        </div>
       </section>
 
-      <!-- SECTION 13 - RETOURS TESTS UTILISATEURS 3 -->
-      <section>
-
-      </section>
-
-      <!-- SECTION 14 - NOS FUTURES AMELIORATIONS -->
-      <section>
-
-      </section>
-    </div>
-  </main>
+    </div> <!-- FERMETURE DIV DROITE -->
+  </main> <!-- FERMETURE DU MAIN -->
 
   <!-- FOOTER -->
   <footer>
-
+    <header>
+      <div>
+        <img src="" alt="LOGO">
+        <a href="">Télécharger L'Application</a>
+      </div>
+      <div>
+        <ul>
+          <li>Accueil</li>
+          <li>L’histoire de GreenStay</li>
+          <li> Pourquoi nous choisir</li>
+          <li>Comment ça marche</li>
+          <li>Ils en parle mieux que nous </li>
+        </ul>
+      </div>
+      <div>
+        <a href=""><img src="asset/Documentation/" alt=""></a>
+        <a href=""><img src="asset/Landing page/icons linkedin.png"alt=""></a>
+        <a href=""><img src="asset/Landing page/icons facebook.png" alt=""></a>
+        a
+      </div>
   </footer>
 
 

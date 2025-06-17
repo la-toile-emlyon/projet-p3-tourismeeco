@@ -9,6 +9,13 @@
     text-decoration: none;
 }
 
-section{
-    width: 78%;
+ 
+
+.flex {
+    display: flex;
 }
+
+.sticky {
+    position: sticky;
+    top: 5px;
+    }
