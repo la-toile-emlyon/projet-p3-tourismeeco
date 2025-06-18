@@ -65,6 +65,7 @@ h3 {
     font-size: 25px;
 }
 
+
 .logo {
     width: 100px;
 
@@ -85,7 +86,7 @@ h3 {
 }
 
 .alignEnd {
-    align-items: end;
+    align-content: flex-end;
 }
 
 .textCenter {
@@ -127,6 +128,7 @@ h3 {
 }
 
 /*CONTAINER*/
+
 .container {
     max-width: 1200px;
     margin-left: auto;
@@ -140,7 +142,8 @@ h3 {
 }
 
 
-/*BTN*/
+/*BOUTON*/
+
 .btn {
     padding: 15px 25px;
     background-color: #006C4C;
@@ -153,6 +156,7 @@ h3 {
 
 
 /*Puces*/
+
 .none {
     list-style-type: none;
 }
@@ -249,6 +253,7 @@ h3 {
 }
 
 /*PADDING*/
+
 .pad50 {
     padding-top: 50px;
 }
@@ -257,6 +262,9 @@ h3 {
     padding: 150px;
 }
 
+.padBottom50{
+    padding-bottom: 50px;
+}
 
 /*COULEUR*/
 
@@ -334,8 +342,14 @@ h3 {
 }
 
 /*TYPO*/
+
 .italic{
     font-style: italic;
     font-weight: 300;
 }
 
+.urbanist {
+    font-weight: 300;
+    font-family: "Urbanist", sans-serif;
+    font-style: medium;
+}

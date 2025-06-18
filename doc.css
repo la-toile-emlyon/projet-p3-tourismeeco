@@ -21,7 +21,7 @@ header {
     transition: background .6s ease;
 }
 
-.coloredHeaderDoc {
+.coloredHeader {
     background-color: #006C4C;
 }
 
@@ -282,7 +282,7 @@ p{
 
 /* HERO DOCUMENTAITON */
 
-.heroDoc {
+.sectionHero {
     height: 40vh;
     object-fit: cover;
     background-image: url(asset/Documentation/image-bg-hero.jpg);
@@ -295,7 +295,9 @@ p{
     line-height: 40px;
     font-size: 15px;
     font-family: "Urbanist", sans-serif;
-
+}
+.link-sommaire:hover {
+    color: #0a9f74;
 }
 
 /* PROBLEMATIQUE */ 
@@ -331,25 +333,19 @@ p{
 
 /* LA SOLUTION */ 
 
-/* scroll */
 
 
-.items-container {
-    width: 100%;
-}
-.item {
-    width: 250px;
-    display: inline-block;
+.swiper {
+  width: 600px;
+  height: 500px;
 }
 
 
-/* image */
-
-.imgSolution {
-    width: 400px;
-
+.img-swipper-midFi{
+    width: 200px;
+    border: #006C4C 2px solid;
 }
-
-
-
-
+.legend {
+    font-size: 10px;
+    font-style: italic;
+}
