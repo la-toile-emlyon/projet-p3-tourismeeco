@@ -1,16 +1,395 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Projet - Page d'accueil</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="index.css" rel="stylesheet" type="text/css" />
-    <script src="script.js" type="text/javascript"></script>
-  </head>
 
-  <body>
-    Accueil
-    <a href="/doc.html">Documentation</a>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Projet - Page d'accueil</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header class="flex spaceBetween alignCenter ">
+
+    <div class="w50 ">
+      <a href="">
+        <img src="asset/Landing page/Logo GreenStay.jpg" alt="logo du site" class="logo"></a>
+    </div>
+
+    <div class="w50">
+      <nav>
+        <ul class="flex gap22 none justify-end alignCenter">
+          <li>
+            <a href="" class="noLine green">Accueil</a>
+          </li>
+          <li>
+            <a href="doc.html" class="noLine green">Documentation
+            </a>
+          </li>
+          <li>
+            <a href="" class="noLine btn white">Télécharger L'application</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+
+
+  </header>
+
+  <!-- HERO -->
+
+  <section class="sectionHero bgBlue">
+
+    <div class="container flex spaceBetween bgHero alignCenter">
+
+      <!-- div de gauche -->
+
+      <div class="pad50 w50">
+        <h1 class="top20">La nature au coeur de ton voyage</h1>
+        <h2 class="top20">Embarque pour un voyage qui te fait du bien</h2>
+        <a href="" class="btn white top50">Télécharger L'application</a>
+      </div>
+
+      <!-- Div de droite - Image de droite -->
+      <div class="w50">
+        <img src="asset/Landing page/cuate.png" alt="" class="w100">
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--CONTEXTE -->
+
+  <section class="top60 containerSection">
+
+    <h2 class="textCenter">L’histoire de GreenStay</h2>
+
+    <div class="top30 container flex spaceBetween">
+
+      <!-- PARTIE DE GAUCHE -->
+
+      <div class="w50 top50">
+
+        <h3>Pourquoi GreenStay ?</h3>
+
+        <p class="top30 green line ">
+          Une application née d’un besoin simple : voyager autrement, sans se perdre ni se priver.<br> Ne pas chercher
+          la perfection, juste des alternatives concrètes : des idées de destinations accessibles en train, des astuces
+          pour camper sans stress, des lieux écoresponsables où se sentir bien.<br> Alors, on a imaginé une application
+          pour aider à franchir le pas. Une appli qui ne juge pas, mais qui guide. Qui inspire, conseille, rassure. <br>
+          Parce que faire mieux, c’est déjà beaucoup. Et parce que derrière chaque petite action, il y a un pas vers un
+          voyage plus
+          libre, plus doux, plus vivant, plus éco.
+        </p>
+
+      </div>
+
+      <!-- PARTIE DE DROITE -->
+
+      <div class="w50">
+        <img src="asset/Landing page/Telephones.png" alt="" class="w100">
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- En quelques chiffres -->
+  <section class="containerSection top60">
+
+    <h3> En quelques chiffres...</h3>
+
+    <div class="flex spaceBetween top30">
+
+
+      <div class="w20 cercleVert textCenter alignCenter">
+
+        <h2 class="white size">72%</h2>
+        <p class="top20">des Français déclarent vouloir voyager de manière plus durable</p>
+
+      </div>
+
+      <div class="w20 cercleVert textCenter alignCenter">
+
+        <h2 class="white size">80%</h2>
+        <p class="top20">des émissions d’un voyage viennent du transport, en particulier de l’avion.</p>
+
+      </div>
+
+      <div class="w20 cercleVert textCenter alignCenter">
+
+        <h2 class="white size">65%</h2>
+        <p class="top20">des campeurs débutants disent manquer d’informations pratiques pour se lancer.</p>
+
+      </div>
+
+      <div class="w20 cercleVert textCenter alignCenter">
+
+        <h2 class="white size">58%</h2>
+        <p class="top20">des voyageurs écoresponsables affirment que ce type de voyage les a rendus plus créatifs et
+          détendus.</p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- POURQUOI NOUS CHOISIR -->
+
+  <section class="bgGreen top50 pad50">
+
+    <h2 class="white textCenter">Pourquoi nous choisir ?</h2>
+
+    <!-- Grande div -->
+
+    <div class="flex spaceBetween containerSection alignCenter top50">
+
+      <!-- premiere div -->
+
+      <div class="w20 card">
+        <div>
+          <img src="asset/Landing page/EURO.png" alt="" class="w20">
+        </div>
+        <div>
+          <p class="weight">Offrez-vous plus, sans payer plus !</p>
+          <p class="top10">Pas de frais cachés, juste l’envie de partager</p>
+        </div>
+
+      </div>
+
+      <!-- Deuxième div -->
+
+      <div class="w20 card">
+        <div>
+          <img src="asset/Landing page/CHECK.png" alt="" class="w20">
+        </div>
+        <div>
+          <p class="weight">Un clic, et tout est prêt ! </p>
+          <p class="top10">Réservez, partez, profitez – tout est là, au même endroit</p>
+        </div>
+
+      </div>
+
+      <!-- Troisième div -->
+
+
+      <div class="w20 card">
+        <div>
+          <img src="asset/Landing page/FEUILLE.png" alt="" class="w20">
+        </div>
+        <div>
+          <p class="weight">Voyagez léger, même pour la planète !</p>
+          <p class="top10">Proposition éco responsable</p>
+        </div>
+
+      </div>
+
+      <!-- Quatrième div -->
+
+      <div class="w20 card">
+
+        <div>
+          <img src="asset/Landing page/COEUR.png" alt="" class="w20">
+        </div>
+        <div>
+          <p class="weight">Un voyage qui vous ressemble ! </p>
+          <p class="top10">Parce que chaque voyageur est unique</p>
+        </div>
+
+      </div>
+
+  </section>
+
+  <!-- COMMENT CA MARCHE -->
+
+  <section class="top60 containerSection">
+
+    <h2 class="textCenter">Comment ça marche ?</h2>
+
+    <div class="flex justifyCenter alignCenter">
+      <!-- DIV DE GAUCHE -->
+      <div class="w40" id="photos">
+        <img src="asset/Landing page/Choix chritère.png" alt="" class="w70 img-selected">
+        <img src="asset/Landing page/Choix Joker.png" alt="" class="w70">
+        <img src="asset/Landing page/Informations générales.png" alt="" class="w70">
+        <img src="asset/Landing page/Choix Hebergement.png" alt="" class="w70">
+        <img src="asset/Landing page/Eco point .png" alt="" class="w70">
+        <img src="asset/Landing page/Reserver.png" alt="" class="w70">
+      </div>
+
+      <!-- DIV DE DROITE -->
+      <div class="w50">
+
+        <ul id="liste" class="none green lineEtapes inter">
+          <li class="li-selected">
+            <h4>Etape 1 : Selectionne tes préférences de voyages</h4>
+          </li>
+          <li>
+            <h4>Etape 2 : Définit ton Joker !</h4>
+          </li>
+          <li>
+            <h4>Etape 3 : Définit ta destination et ta date</h4>  
+          </li>
+          <li>
+            <h4>Etape 4 : Choisi parmis des centaines de propositions</h4>
+          </li>
+          <li>
+            <h4>Etape 5 : Visualise ton eco score</h4> 
+          </li>
+          <li>
+            <h4>Etape 6 : Réserve ton voyage ! </h4>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- AVIS CLIENTS -->
+
+  <section class="bgGreen top60 pad150">
+
+    <div>
+      <div>
+        <h3 class="white textCenter">Ils en parlent mieux que nous</h3>
+      </div>
+      <div class="textCenter top30">
+        <div class="flex alignCenter  textCenter w20 margAuto">
+
+          <img src="asset/Landing page/etoile pleine.png" alt="">
+          <img src="asset/Landing page/etoile pleine.png" alt="">
+          <img src="asset/Landing page/etoile pleine.png" alt="">
+          <img src="asset/Landing page/etoile pleine.png" alt="">
+          <img src="asset/Landing page/etoile vide.png" alt="">
+
+          <p class="white">4,8/5</p>
+        </div>
+
+        <p class="white top10">900+ avis</p>
+      </div>
+    </div>
+
+    <!-- CARTES AVIS -->
+
+    <div class="flex gap30 justifyCenter containerSection top30">
+
+      <!-- 1er Avis -->
+      <div class="w25 cardAvis">
+        <div>
+          <img src="asset/Landing page/Client 1.jpg" alt="" class="w50">
+        </div>
+        <div>
+          <p class="weight">David, 32 ans</p>
+          <p class="top10 italic">Enfin une appli qui ne culpabilise pas et qui propose des idées simples pour voyager
+            autrement. J’ai découvert des coins incroyables accessibles en train !</p>
+        </div>
+      </div>
+
+      <!-- 2eme Avis -->
+
+      <div class="w25 cardAvis">
+        <div>
+          <img src="asset/Landing page/Client 2.jpg" alt="" class="w50">
+        </div>
+        <div>
+          <p class="weight">William 47 ans</p>
+          <p class="top10 italic">Super pratique pour préparer mes week-ends sans voiture. Les conseils pour camper sont
+            top et réalistes. Je recommande à fond</p>
+        </div>
+
+      </div>
+
+      <!-- 3eme Avis -->
+
+      <div class="w25 cardAvis">
+        <div>
+          <img src="asset/Landing page/Client 3.jpg" alt="" class="w50">
+        </div>
+        <div>
+          <p class="weight">Laurent 63 ans</p>
+          <p class="top10 italic">Enfin une appli qui ne culpabilise pas et qui propose des idées simples pour voyager
+            autrement. J’ai découvert des coins incroyables accessibles en train !</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer class="bgBlue pad50 padBottom50">
+
+    <div class="flex spaceBetween container">
+
+      <div class="flex alignCenter spaceBetween w70">
+
+        <div class="w40">
+          <img src="asset/Landing page/Logo GreenStay.jpg" class="logo" alt="">
+          <h2>La nature au coeur de ton voyage</h2>
+          <a href="" class="btn white top20">Télécharger l'application</a>
+        </div>
+
+        <div class="w30">
+          <ul class="urbanist green line">
+            <li>Accueil</li>
+            <li>L'histoire de GreenStay</li>
+            <li>Pourquoi nous choisir</li>
+            <li>Comment ça marche</li>
+            <li>Ils en parlent mieux que nous</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- RESEAUX SOCIAUX -->
+       
+      <div class="alignEnd flex alignCenter gap22">
+
+        <a href=""><img src="asset/Landing page/icon youtube.png" alt=""></a>
+        <a href=""><img src="asset/Landing page/icon linkedin.png" alt=""></a>
+        <a href=""><img src="asset/Landing page/icon Facebook.png" alt=""></a>
+        <a href=""><img src="asset/Landing page/icon Github.png" alt=""></a>
+        
+      </div>
+    </div>
+
+
+  </footer>
+<script src="carousel.js" defer></script>
+</body>
+
 </html>
+
+
+
+
+
+
+
+
+
+<!-- 
+<div>
+      <img src="" alt="LOGO">
+      <h3></h3>
+      <img src="asset/télécharger AppStore.png" alt="Télécharger Apple">
+      <img src="asset/télécharger Playstore.png" alt="télécharger PlayStore">
+    </div>
+    <div> Footer côté droit
+      <img src="asset/icons facebook.png" alt="Facebook">
+      <img src="asset/icons instagram.png" alt="Instagram">
+      <img src="asset/icons linkedin.png" alt="Linkedin">
+    </div>
+    <div>
+      <p>© 2025 La toile - Tous droits réservés.</p>
+    </div> -->

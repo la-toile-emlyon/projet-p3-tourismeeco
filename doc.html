@@ -1,15 +1,406 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Projet - Documentation</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="doc.css" rel="stylesheet" type="text/css" />
-  </head>
+<html lang="fr">
 
-  <body>
-    <a href="/index.html">Accueil</a>
-    Documentation
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Projet - Documentation</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="doc.css" rel="stylesheet" type="text/css" />
+
+  <script src="doc.js" type="text/javascript" defer></script>
+
+  <!-- swipper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+</head>
+
+
+<body> <!-- BODY - DOCUMENTATION -->
+
+  <!-- HEADER -->
+
+  <header class="flex spaceBetween alignCenter ">
+
+    <div class="w50 ">
+      <a href="">
+        <img src="asset/Landing page/Logo GreenStay.jpg" alt="logo du site" class="logo"></a>
+    </div>
+
+    <div class="w50">
+      <nav>
+        <ul class="flex gap22 none justify-end alignCenter">
+          <li>
+            <a href="index.html" class="noLine white">Accueil</a>
+          </li>
+          <li>
+            <a href="doc.html" class="noLine white">Documentation
+            </a>
+          </li>
+          <li>
+            <a href="" class="noLine btn-white ">Télécharger L'application</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+
+
+  </header>
+
+  <div class="sectionHero flex spaceBetween alignCenter justifyCenter ">
+    <h2 class="textCenter white">Documentation</h2>
+  </div>
+
+
+  <main class="flex container spaceBetween  "> <!-- MAIN -->
+
+    <div class="w20 top50 "> <!-- DIV GAUCHE -->
+
+      <!-- SECTION 2 - HERO - BOUTON SELECTION -->
+      <section class="h100">
+        <ul class="sticky sommaire none">
+          <li><a href="#contexte" class="noLine green link-sommaire">Contexte</a></li>
+          <li><a href="#Problématique" class="noLine green link-sommaire">Problématique</a></li>
+          <li><a href="#Pourqui?" class="noLine green link-sommaire">Pour qui ?</a></li>
+          <li><a href="#UserFlow" class="noLine green link-sommaire">User flow</a></li>
+          <li><a href="#LaSolution" class="noLine green link-sommaire">La solution</a></li>
+          <li><a href="#Retours" class="noLine green link-sommaire">Retours tests utilisateurs</a></li>
+          <li><a href="#NosFuturs" class="noLine green link-sommaire">Nos futures améliorations</a></li>
+        </ul>
+      </section>
+    </div> <!-- FERMETURE DIV GAUCHE -->
+
+
+    <div class="w70 top50"> <!-- DIV DROITE -->
+
+      <!-- SECTION 3 - CONTEXTE  -->
+      <section class="">
+
+        <h2 class="" id="contexte">Contexte</h2>
+        <div class="flex spaceBetween  top30 ">
+          <p class="w50 ">Une application née d’un besoin simple : voyager autrement, sans se perdre ni se priver. Ne
+            pas chercher la
+            perfection, juste des alternatives concrètes : des idées de destinations accessibles en train, des astuces
+            pour
+            camper sans stress, des lieux écoresponsables où se sentir bien.
+            Alors, on a imaginé une application pour aider à franchir le pas. Une appli qui ne juge pas, mais qui guide.
+            Qui
+            inspire, conseille, rassure. Parce que faire mieux, c’est déjà beaucoup. Et parce que derrière chaque petite
+            action, il y a un pas vers un voyage plus libre, plus doux, plus vivant, plus éco.</p>
+          <img src="asset/Documentation/Journey-amico.png" alt="" class="w40">
+        </div>
+
+      </section>
+
+      <!-- SECTION 4 - PROBLEMATIQUE -->
+      <section class=" top50" id="Problématique">
+        <h2>Problèmatique</h2>
+        <p class="problematique top20 green">Comment Marie peut-elle transformer ses habitudes de voyage pour répondre
+          aux enjeux écologiques sans perdre
+          le
+          confort qu’elle valorise ?</p>
+
+      </section>
+
+      <!-- SECTION 5 - POUR QUI? -->
+      <section class="top50" id="Pourqui?">
+        <div>
+          <h2>Pour qui?</h2>
+          <p class="top20">Cette application a pour but d'encourager les personnes éloignées du monde écologique à s’en
+            rapprocher et
+            à
+            adapter davantage leurs habitudes en faveur de l’écologie dans le domaine du voyage.
+          </p>
+        </div>
+
+        <div class="flex spaceBetween w100 top30">
+
+          <!-- carte 1 - 25% -->
+          <div class="card-chiffre w30 ">
+            <p class="big-number">25%</p>
+            <p class="p-number">de croissance anuelle pour l’eco tourisme</p>
+            <p class="legend-number">Source : Organisation Mondiale du Tourisme - OMT</p>
+          </div>
+
+          <!-- carte 2 - 45% -->
+          <div class="card-chiffre w30">
+            <p class="big-number">45%</p>
+            <p class="p-number">des Français envisagent de modifier leurs habitudes de vacances pour 2023 en raison des
+              événements
+              climatiques </p>
+            <p class="legend-number">Source : Industries Hotelière</p>
+          </div>
+
+          <!-- carte 3 - 87% -->
+          <div class="card-chiffre w30">
+            <p class="big-number">87%</p>
+            <p class="p-number">des voyageurs veulent un tourisme plus durable</p>
+            <p class="legend-number">Source : Booking.com</p>
+          </div>
+        </div>
+
+        <!-- persona marie-->
+        <img class="w100 top30" src="asset/Documentation/Carte Marie.jpg" alt="Bio Marie">
+
+      </section>
+
+
+      <!-- SECTION 7 - USERFLOW -->
+      <section class="top50" id="UserFlow">
+        <h2>User flow</h2>
+        <img src="asset/Documentation/UserFlow.png" alt="UserFlow" class="w100">
+      </section>
+
+      <!-- SECTION 8 - LA SOLUTION -->
+      <section class="top50" id="LaSolution">
+        <h2>La solution</h2>
+
+        <!-- SECTION 8.1 - LOW FI -->
+        <section class="top50">
+          <h3> Low Fi</h3>
+
+          <!-- Slider main container -->
+
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+
+              <!-- Slide 1 -->
+              <div class="swiper-slide">
+                <div class="flex justifyCenter">
+                  <img src="asset/Documentation/Pages 0-2 LowFi.png" class="img-swipper-midFi" alt="">
+                  <p class="legend green w100 textCenter top20 fontLow">Page d'accueil et planning</p>
+                </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="swiper-slide">
+                <div class="flex justifyCenter">
+                  <img src="asset/Documentation/Pages 3-5 LowFi.png" class="img-swipper-midFi" alt="">
+                  <p class="legend green w100 textCenter top20 fontLow">Ecran de sélection choix hébergement</p>
+                </div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="swiper-slide">
+                <div class="flex justifyCenter">
+                  <img src="asset/Documentation/Pages 6-8 LowFi.png" class="img-swipper-midFi" alt="">
+                  <p class="legend green w100 textCenter top20 fontLow">Modification écologique</p>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </section>
+
+        <!-- SECTION 8.2 - MIDFI -->
+        <section class="top50 ">
+          <h3>Mid Fi</h3>
+
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+
+              <!-- Slide 1 -->
+              <div class="swiper-slide">
+                <div class="flex justifyCenter">
+                  <img src="asset/Documentation/Page de lancement MidFy.png" class="img-swipper-midFi" alt="">
+                </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="swiper-slide">
+                <div class="flex justifyCenter">
+                  <img src="asset/Documentation/Page 2 MidFy.png" class="img-swipper-midFi" alt="">
+                </div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="swiper-slide">
+                <div class="flex justifyCenter">
+                  <img src="asset/Documentation/Page 3 MidFy.png" class="img-swipper-midFi" alt="">
+                </div>
+              </div>
+
+              <!-- Slide 4 -->
+              <div class="swiper-slide">
+                <div class="flex justifyCenter">
+                  <img src="asset/Documentation/Page 4 MidFy.png" class="img-swipper-midFi" alt="">
+                </div>
+              </div>
+
+              <!-- Slide 5 -->
+              <div class="swiper-slide">
+                <div class="flex justifyCenter">
+                  <img src="asset/Documentation/Page 5 MidFy.png" class="img-swipper-midFi" alt="">
+                </div>
+              </div>
+
+              <!-- Slide 6 -->
+              <div class="swiper-slide">
+                <div class="flex justifyCenter">
+                  <img src="asset/Documentation/Page 6 MidFy.png" class="img-swipper-midFi" alt="">
+                </div>
+              </div>
+
+              <!-- Slide 7 -->
+              <div class="swiper-slide">
+                <div class="flex justifyCenter">
+                  <img src="asset/Documentation/Page 7 MidFy.png" class="img-swipper-midFi" alt="">
+                </div>
+              </div>
+
+              <!-- Slide 8 -->
+              <div class="swiper-slide">
+                <div class="flex justifyCenter">
+                  <img src="asset/Documentation/Page 8 MidFy.png" class="img-swipper-midFi" alt="">
+                </div>
+              </div>
+
+              <!-- Slide 9 -->
+              <div class="swiper-slide">
+                <div class="flex justifyCenter">
+                  <img src="asset/Documentation/Page 9 MidFy.png" class="img-swipper-midFi" alt="">
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </section>
+
+        <!-- SECTION 8.3 - HIGHTFI -->
+        <section class="top50">
+          <h3 class="">HightFI - Prototype</h3>
+          <iframe  style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+            src="https://embed.figma.com/proto/kCIWkk5yXzfPAzZvAfUUuv/Assia---Cynthia---Hermine---J%C3%A9r%C3%A9mie?node-id=3888-1473&p=f&scaling=scale-down&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=3877%3A1533&embed-host=share"
+            allowfullscreen class="top50"></iframe>
+        </section>
+      </section>
+
+      <!-- SECTION 9 - RETOURS TESTS UTILISATEURS -->
+      <section class="top50 marginbot" id="Retours">
+        <h2 class="pad50">Retours tests utilisateurs</h2>
+
+        <div class=""> <!-- Carte 1 -->
+          <h3 class="top50">“Fixer les barres en haut et en bas pour qu’elles ne bougent pas lors du scroll”</h3>
+          <div>
+            <div class="flex pad30 gap22">
+              <div class="w20">
+                <img class="w100" src="asset/Documentation/Retour utilisateur 1.png" alt="">
+                <p class="top10">Avant</p>
+              </div>
+              <div class="w20">
+                <img class="w100" src="asset/Documentation/Retour utilisateur 1.1.png" alt="">
+                <p class="top10">Après</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="top50"> <!-- Carte 2 -->
+          <h3>“Carte à harmoniser”</h3>
+          <div>
+            <div class="flex pad50 gap22">
+              <div class="w20">
+                <img class="w100" src="asset/Documentation/Retour utilisateur 2.png" alt="">
+                <p class="top10">Avant</p>
+              </div>
+              <div class="w20">
+                <img class="w100" src="asset/Documentation/Retour utilisateur 2.1.png" alt="">
+                <p class="top10">Après</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="top50"> <!-- Carte 3 -->
+          <h3>“Remplacer “Valider” par “Réserver mon voyage””</h3>
+          <div>
+            <div class="flex pad50 gap22">
+              <div class="w20">
+                <img class="w100" src="asset/Documentation/Retour utilisateur 3.png" alt="">
+                <p class="top10">Avant</p>
+              </div>
+              <div class="w20">
+                <img class="w100" src="asset/Documentation/Retour utilisateur 3.1.png" alt="">
+                <p class="top10">Après</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 10 - NOS FUTURES AMELIORATIONS -->
+      <section class="top50 marginbot" id="NosFuturs">
+        <div>
+          <h2>Futures améliorations :</h2>
+          <ol class="top30">
+            <li class="pad15 marginleft"> Éviter que les icônes de logement et d’activités sportives ne se déplacent lorsque le
+              point joker
+              apparaît.</li>
+            <li class="pad15 marginleft ">Fixer l’en-tête de la page alternative.</li>
+            <li>Changer les images de la page récapitulative.</li>
+          </ol>
+        </div>
+      </section>
+
+    </div> <!-- FERMETURE DIV DROITE -->
+  </main> <!-- FERMETURE DU MAIN -->
+
+  <!-- FOOTER -->
+  <footer class="bgBlue pad50 padBottom50">
+
+    <div class="flex spaceBetween container">
+
+      <div class="flex alignCenter spaceBetween w70">
+
+        <div class="w40">
+          <img src="asset/Landing page/Logo GreenStay.jpg" class="logo" alt="">
+          <h2>La nature au coeur de ton voyage</h2>
+          <a href="" class="btn white top20">Télécharger l'application</a>
+        </div>
+
+        <div class="w30">
+          <ul class="urbanist green line">
+            <li>Accueil</li>
+            <li>L'histoire de GreenStay</li>
+            <li>Pourquoi nous choisir</li>
+            <li>Comment ça marche</li>
+            <li>Ils en parlent mieux que nous</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- RESEAUX SOCIAUX -->
+       
+      <div class="alignEnd flex alignCenter gap22">
+
+        <a href=""><img src="asset/Landing page/icon youtube.png" alt=""></a>
+        <a href=""><img src="asset/Landing page/icon linkedin.png" alt=""></a>
+        <a href=""><img src="asset/Landing page/icon Facebook.png" alt=""></a>
+        <a href=""><img src="asset/Landing page/icon Github.png" alt=""></a>
+        
+      </div>
+    </div>
+
+
+  </footer>
+
+
+</body>
+
 </html>

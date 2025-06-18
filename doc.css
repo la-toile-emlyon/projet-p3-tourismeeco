@@ -1,1 +1,403 @@
-/* Le code CSS spécifique à la page de documentation */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+/* Le code CSS spécifique à la page d'accueil */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header {
+    padding: 0px 64px;
+    background-color: rgba(222, 222, 222, 0);
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    position: fixed;
+    transition: background .6s ease;
+}
+
+.coloredHeader {
+    background-color: #006C4C;
+}
+
+.gap22 {
+    gap: 22px;
+}
+
+header>nav {
+    margin: auto;
+}
+
+h1 {
+    color: #17381d;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+}
+
+h2 {
+    color: #285430;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+h3 {
+    color: #285430;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+p {
+    font-family: "Urbanist", sans-serif;
+    font-size: 15px;
+}
+
+.logo {
+    width: 64px !important;
+
+}
+
+/* flexbox */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.alignEnd {
+    align-items: end;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.block {
+    display: inline-block;
+}
+
+
+
+/*CONTAINER*/
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerSection {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*BTN*/
+.btn {
+    padding: 15px 25px;
+    background-color: #006C4C;
+    color: #222122;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    font-family: "Urbanist", sans-serif;
+}
+
+.btn-white {
+    padding: 15px 25px;
+    background-color: #ffffff;
+    color: #006C4C;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    font-family: "Urbanist", sans-serif;
+}
+
+
+/*Puces*/
+.none {
+    list-style-type: none;
+}
+
+.noLine {
+    text-decoration: none;
+}
+
+.logo {
+    width: 100px;
+}
+
+/*WIDTH*/
+
+.w20 {
+    width: 20%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w35 {
+    width: 35%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w45 {
+    width: 45%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.w80 {
+    width: 80%;
+}
+
+.w90 {
+    width: 90%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.top10 {
+    margin-top: 10px;
+}
+
+.top20 {
+    margin-top: 20px;
+}
+
+.top30 {
+    margin-top: 30px;
+}
+
+.top50 {
+    margin-top: 50px;
+}
+
+.top60 {
+    margin-top: 60px;
+}
+
+.top70 {
+    margin-top: 70px;
+}
+
+.top100 {
+    margin-top: 100px;
+}
+
+.m50 {
+    margin-top: 50px;
+}
+
+.marginbot {
+    margin-bottom: 50px;
+}
+.marginleft{
+    margin-left: 0px;
+}
+.h100 {
+    height: 100%;
+}
+
+.pad50 {
+    padding-top: 50px;
+}
+
+.pad30 {
+    padding-top: 30px;
+}
+
+.pad15 {
+    padding-bottom: 15px;
+}
+
+.padBottom50{
+    padding-bottom: 50px;
+}
+
+
+/* POSITIONNEMENT */
+.sticky {
+    position: sticky;
+}
+
+.relative {
+    position: relative;
+}
+
+/*COULEUR*/
+
+.green {
+    color: #285430;
+}
+
+.white {
+    color: white;
+}
+
+/*BACKGROUND*/
+
+.bgGreen {
+    background-color: #006C4C;
+}
+
+.bgRed {
+    background-color: red;
+}
+
+.bgBlue {
+    background-color: #BAEADC;
+}
+
+.line {
+    line-height: 24px;
+}
+
+/************************* SPECIFIQUE *****************/
+
+/* HERO DOCUMENTAITON */
+
+.sectionHero {
+    height: 40vh;
+    object-fit: cover;
+    background-image: url(asset/Documentation/image-bg-hero.jpg);
+}
+
+/* SOMMAIRE */
+.sommaire {
+    top: 130px;
+    border-right: #006C4C 2px solid;
+    line-height: 40px;
+    font-size: 15px;
+    font-family: "Urbanist", sans-serif;
+}
+
+.link-sommaire:hover {
+    color: #0a9f74;
+}
+
+/* PROBLEMATIQUE */
+.problematique {
+    font-size: 30px;
+    font-family: "Urbanist", sans-serif;
+}
+
+
+/* POUR QUI */
+.card-chiffre {
+    background-color: #E7F5E2;
+    border-radius: 20px;
+    padding: 30px;
+    font-family: "Urbanist", sans-serif;
+}
+
+.big-number {
+    color: #006C4C;
+    font-size: 70px;
+    text-align: center;
+}
+
+.p-number {
+    font-size: 15px;
+}
+
+.legend-number {
+    font-size: 10px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+/* LA SOLUTION */
+
+/* swiper */
+.swiper {
+    width: 600px;
+    height: 500px;
+}
+
+
+.img-swipper-midFi {
+    width: 200px;
+    border: #006C4C 2px solid;
+}
+
+.legend {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.swiper-pagination-bullet-active {
+    background: #006C4C !important;
+}
+
+.swiper-button-next {
+    color: #006C4C !important;
+}
+
+.swiper-button-prev {
+    color: #006C4C !important;
+}
+
+.fontLow {
+    font-size: medium;
+}
+
+/*footer*/
+.alignEnd{
+    justify-content: flex-end;
+    }
+.gap{
+    gap: 25px;
+}
+.margdroit{
+    margin-right : 50px;
+}
