@@ -67,7 +67,7 @@ p{
 }
 
 .logo {
-    width: 100px;
+    width: 64px !important;
 
 }
 
@@ -235,6 +235,9 @@ p{
 .m50{
     margin-top: 50px;
 }
+.marginbot{
+    margin-bottom: 50px;
+}
 .h100 {
     height: 100%;
 }
@@ -242,6 +245,10 @@ p{
 .pad50 {
     padding-top: 50px;
 }
+.pad15{
+    padding-bottom: 15px;
+}
+
 
 /* POSITIONNEMENT */
 .sticky {
@@ -333,8 +340,7 @@ p{
 
 /* LA SOLUTION */ 
 
-
-
+/* swiper */
 .swiper {
   width: 600px;
   height: 500px;
@@ -349,3 +355,20 @@ p{
     font-size: 10px;
     font-style: italic;
 }
+
+.swiper-pagination-bullet-active{
+background: #006C4C !important;
+}
+
+.swiper-button-next{
+color: #006C4C !important;
+}
+
+.swiper-button-prev{
+    color: #006C4C !important;
+}
+
+.fontLow {
+    font-size: medium;
+}
+
