@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
   <title>Projet - Page d'accueil</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="style.css">
   <link href="index.css" rel="stylesheet" type="text/css" />
   <script src="script.js" type="text/javascript" defer></script>
 </head>
@@ -67,7 +67,7 @@
 
   <!--CONTEXTE -->
 
-  <section class="top50 containerSection">
+  <section class="top60 containerSection">
 
     <h2 class="textCenter">L’histoire de GreenStay</h2>
 
@@ -102,7 +102,7 @@
   </section>
 
   <!-- En quelques chiffres -->
-  <section class="containerSection">
+  <section class="containerSection top60">
 
     <h3> En quelques chiffres...</h3>
 
@@ -195,7 +195,7 @@
       <!-- Quatrième div -->
 
       <div class="w20 card">
-        
+
         <div>
           <img src="asset/Landing page/COEUR.png" alt="" class="w20">
         </div>
@@ -208,96 +208,178 @@
 
   </section>
 
+  <!-- COMMENT CA MARCHE -->
 
-  <section>
-    <h2>Avantages</h2>
-    <p>Pourquoi nous choisir ?</p>
-    <div>
+  <section class="top60 containerSection">
 
-      <div>
-        <p>Gratuité complète 100%</p>
-      </div>
-      DIV 2
-      <div>
-        <p>Accessibilité (réserver tout à un seul endroit)</p>
-      </div>
-      <div>
-        <p>Eco Score (propositions éco responsable)</p>
+    <h2 class="textCenter">Comment ça marche ?</h2>
+
+    <div class="flex spaceBetween alignCenter">
+      <!-- DIV DE GAUCHE -->
+      <div class="w40">
+        <img src="asset/Landing page/Hello Marie.jpg" alt="" class="w70">
       </div>
 
-      DIV 4
-      <div>
-        <p>Personnalisation de A à Z</p>
+      <!-- DIV DE DROITE -->
+      <div class="w50">
+
+        <ul>
+
+          <li>
+            <h4>Etape 1 : Selectionne tes préférences de voyages</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae facilis omnis similique architecto
+              dolorum autem, at debitis nobis saepe corporis vitae, neque beatae! Hic adipisci ipsam perferendis libero
+              ullam eaque!</p>
+          </li>
+          <li>
+            <h4>Etape 2 : Définit ton Joker !</h4>
+            <p></p>
+          </li>
+          <li>
+            <h4>Etape 3 : Définit ta destination et ta date</h4>
+            <p></p>
+          </li>
+          <li>
+            <h4>Etape 4 : Choisi parmis des centaines de propositions</h4>
+            <p></p>
+          </li>
+          <li>
+            <h4>Etape 5 : Visualise ton eco score</h4>
+            <p></p>
+          </li>
+          <li>
+            <h4>Etape 6 : Réserve ton voyage ! </h4>
+            <p></p>
+          </li>
+
+
+        </ul>
+
       </div>
 
     </div>
   </section>
 
 
+  <!-- AVIS CLIENTS -->
 
-  <section>
-    <h2> Quelques Chiffres</h2>
-    <div class="card">
-      <img src="" alt="">
-      <h3>Transports</h3>
-      <p></p>
+  <section class="bgGreen top60 pad150">
+
+    <div>
+      <div>
+        <h3 class="white textCenter">Ils en parlent mieux que nous</h3>
+      </div>
+      <div class="textCenter top30">
+        <div class="flex alignCenter  textCenter w20 margAuto">
+
+          <img src="asset/Landing page/etoile pleine.png" alt="">
+          <img src="asset/Landing page/etoile pleine.png" alt="">
+          <img src="asset/Landing page/etoile pleine.png" alt="">
+          <img src="asset/Landing page/etoile pleine.png" alt="">
+          <img src="asset/Landing page/etoile vide.png" alt="">
+
+          <p class="white">4,8/5</p>
+        </div>
+
+        <p class="white top10">900+ avis</p>
+      </div>
     </div>
-    <div class="card">
-      <img src="" alt="">
-      <h3>Logements</h3>
-      <p></p>
-    </div>
-    <div class="card">
-      <img src="" alt="">
-      <h3>Repas</h3>
-      <p></p>
-    </div>
-    <div class="card">
-      <img src="" alt="">
-      <h3>Sports</h3>
-      <p></p>
+
+    <!-- CARTES AVIS -->
+
+    <div class="flex gap30 justifyCenter containerSection top30">
+
+      <!-- 1er Avis -->
+      <div class="w25 cardAvis">
+        <div>
+          <img src="asset/Landing page/Client 1.jpg" alt="" class="w50">
+        </div>
+        <div>
+          <p class="weight">David, 32 ans</p>
+          <p class="top10 italic">Enfin une appli qui ne culpabilise pas et qui propose des idées simples pour voyager
+            autrement. J’ai découvert des coins incroyables accessibles en train !</p>
+        </div>
+      </div>
+
+      <!-- 2eme Avis -->
+
+      <div class="w25 cardAvis">
+        <div>
+          <img src="asset/Landing page/Client 2.jpg" alt="" class="w50">
+        </div>
+        <div>
+          <p class="weight">William 47 ans</p>
+          <p class="top10 italic">Super pratique pour préparer mes week-ends sans voiture. Les conseils pour camper sont
+            top et réalistes. Je recommande à fond</p>
+        </div>
+
+      </div>
+
+      <!-- 3eme Avis -->
+
+      <div class="w25 cardAvis">
+        <div>
+          <img src="asset/Landing page/Client 3.jpg" alt="" class="w50">
+        </div>
+        <div>
+          <p class="weight">Laurent 63 ans</p>
+          <p class="top10 italic">Enfin une appli qui ne culpabilise pas et qui propose des idées simples pour voyager
+            autrement. J’ai découvert des coins incroyables accessibles en train !</p>
+        </div>
+
+      </div>
+
     </div>
   </section>
 
 
-  <section>
-    <h3>Avis Clients</h3>
+  <!-- FOOTER -->
+
+  <footer>
 
     <div>
+
       <div>
-        <img src="" alt="">
+        <img src="asset/Landing page/Logo GreenStay.jpg" class="logo" alt="">
+        <h2>La nature au coeur de ton voyage</h2>
+        <a href=""></a>
       </div>
-      <div>
-        <h4></h4>
-        <p></p>
-        <img src="" alt="">
+
+      <div> 
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
+
     </div>
+
     <div>
-      <div>
-        <img src="" alt="">
-      </div>
-      <div>
-        <h4></h4>
-        <p></p>
-        <img src="" alt="">
-      </div>
+      <a href=""><img src="" alt=""></a>
+      <a href=""><img src="" alt=""></a>
+      <a href=""><img src="" alt=""></a>
+      <a href=""><img src="" alt=""></a>
     </div>
-    <div>
-      <div>
-        <img src="" alt="">
-      </div>
-      <div>
-        <h4></h4>
-        <p></p>
-        <img src="" alt="">
-      </div>
-    </div>
-  </section>
+
+  </footer>
+
+</body>
+
+</html>
 
 
-  <section>
-    <div>
+
+
+
+
+
+
+
+<!-- 
+<div>
       <img src="" alt="LOGO">
       <h3></h3>
       <img src="asset/télécharger AppStore.png" alt="Télécharger Apple">
@@ -310,9 +392,4 @@
     </div>
     <div>
       <p>© 2025 La toile - Tous droits réservés.</p>
-    </div>
-  </section>
-
-</body>
-
-</html>
+    </div> -->

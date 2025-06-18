@@ -7,36 +7,55 @@
   <title>Projet - Documentation</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link href="doc.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" type="text/javascript" defer></script>
+
 </head>
 
 
 <body> <!-- BODY - DOCUMENTATION -->
 
-  <!-- SECTION 1 - HEADER -->
-  <header>
-    <div>
-      <img src="" alt="LOGO">
-      <div>
-        <ul>
-          <li>Accueil</li>
-          <li>Documentation</li>
+  <!-- HEADER -->
+
+  <header class="flex spaceBetween alignCenter ">
+
+    <div class="w50 ">
+      <a href="">
+        <img src="asset/Landing page/Logo GreenStay.jpg" alt="logo du site" class="logo"></a>
+    </div>
+
+    <div class="w50">
+      <nav>
+        <ul class="flex gap22 none justify-end alignCenter">
+          <li>
+            <a href="index.html" class="noLine white">Accueil</a>
+          </li>
+          <li>
+            <a href="doc.html" class="noLine white">Documentation
+            </a>
+          </li>
+          <li>
+            <a href="" class="noLine btn-white ">Télécharger L'application</a>
+          </li>
         </ul>
-        <a href="">Télécharger L'Application</a>
-      </div>
+      </nav>
+
     </div>
-    <div>
-      <h2>Documentation</h2>
-    </div>
+
 
   </header>
 
-  <main class="flex"> <!-- MAIN -->
+  <div class="heroDoc flex spaceBetween alignCenter justifyCenter ">
+    <h2 class="textCenter white">Documentation</h2>
+  </div>
 
-    <div class=""> <!-- DIV GAUCHE -->
+
+  <main class="flex container spaceBetween  "> <!-- MAIN -->
+
+    <div class="w20 top50 "> <!-- DIV GAUCHE -->
 
       <!-- SECTION 2 - HERO - BOUTON SELECTION -->
-      <section class="sticky">
-        <ul>
+      <section class="h100">
+        <ul class="sticky sommaire none">
           <li>Contexte</li>
           <li>Problèmatique</li>
           <li>Pour qui ?</li>
@@ -49,13 +68,15 @@
     </div> <!-- FERMETURE DIV GAUCHE -->
 
 
-    <div> <!-- DIV DROITE -->
+    <div class="w70 top50"> <!-- DIV DROITE -->
 
-      <!-- SECTION 3 - CONTEXTE -->
-      <section class="section">
-        <div>
-          <h2>Contexte</h2>
-          <p>Une application née d’un besoin simple : voyager autrement, sans se perdre ni se priver. Ne pas chercher la
+      <!-- SECTION 3 - CONTEXTE  -->
+      <section class="">
+
+        <h2 class="">Contexte</h2>
+        <div class="flex spaceBetween  top30 ">
+          <p class="w50 ">Une application née d’un besoin simple : voyager autrement, sans se perdre ni se priver. Ne
+            pas chercher la
             perfection, juste des alternatives concrètes : des idées de destinations accessibles en train, des astuces
             pour
             camper sans stress, des lieux écoresponsables où se sentir bien.
@@ -63,108 +84,130 @@
             Qui
             inspire, conseille, rassure. Parce que faire mieux, c’est déjà beaucoup. Et parce que derrière chaque petite
             action, il y a un pas vers un voyage plus libre, plus doux, plus vivant, plus éco.</p>
+          <img src="asset/Documentation/Photo Contexte.png" alt="" class="w40">
         </div>
-        <img src="" alt="">
+
       </section>
 
       <!-- SECTION 4 - PROBLEMATIQUE -->
-      <section class="section">
+      <section class=" top50">
         <h2>Problèmatique</h2>
-        <p>Comment Marie peut-elle transformer ses habitudes de voyage pour répondre aux enjeux écologiques sans perdre
+        <p class="problematique top20 green">Comment Marie peut-elle transformer ses habitudes de voyage pour répondre
+          aux enjeux écologiques sans perdre
           le
           confort qu’elle valorise ?</p>
 
       </section>
 
       <!-- SECTION 5 - POUR QUI? -->
-      <section>
+      <section class="top50">
         <div>
-          <h3>Pour qui?</h3>
-          <p>Cette application a pour but d'encourager les personnes éloignées du monde écologique à s’en rapprocher et
+          <h2>Pour qui?</h2>
+          <p class="top20">Cette application a pour but d'encourager les personnes éloignées du monde écologique à s’en
+            rapprocher et
             à
             adapter davantage leurs habitudes en faveur de l’écologie dans le domaine du voyage.
           </p>
         </div>
-        <div> <!-- carte 1 - 25% -->
-          <div>25%</div>
-          <div>de croissance anuelle pour l’eco tourisme</div>
-          <div>Source : Organisation Mondiale du Tourisme - OMT</div>
+
+        <div class="flex spaceBetween w100 top30">
+          <div class="card-chiffre w30 "> <!-- carte 1 - 25% -->
+            <p class="big-number">25%</p>
+            <p class="p-number">de croissance anuelle pour l’eco tourisme</p>
+            <p class="legend-number">Source : Organisation Mondiale du Tourisme - OMT</p>
+          </div>
+          <div class="card-chiffre w30"> <!-- carte 2 - 45% -->
+            <p class="big-number">45%</p>
+            <p class="p-number">des Français envisagent de modifier leurs habitudes de vacances pour 2023 en raison des
+              événements
+              climatiques </p>
+            <p class="legend-number">Source : Industries Hotelière</p>
+          </div>
+          <div class="card-chiffre w30"> <!-- carte 3 - 87% -->
+            <p class="big-number">87%</p>
+            <p class="p-number">des voyageurs veulent un tourisme plus durable</p>
+            <p class="legend-number">Source : Booking.com</p>
+          </div>
         </div>
-        <div> <!-- carte 2 - 45% -->
-          <div>45%</div>
-          <div>des Français envisagent de modifier leurs habitudes de vacances pour 2023 en raison des événements
-            climatiques </div>
-          <div>Source : Industries Hotelière</div>
-        </div>
-        <div> <!-- carte 3 - 87% -->
-          <div>87%</div>
-          <div>des voyageurs veulent un tourisme plus durable</div>
-          <div>Source : Booking.com</div>
-        </div>
+
+        <!-- persona marie-->
+        <img class="w100 top30" src="asset/Documentation/Bio Marie Personna.jpg" alt="Bio Marie">
 
       </section>
 
-      <!-- SECTION 6 - IMAGE BIO MARIE -->
-      <section>
-        <div>
-       <img src="asset/Documentation/Bio Marie Personna.jpg" alt="Bio Marie">
-        </div>
-
-      </section>
 
       <!-- SECTION 7 - USERFLOW -->
-      <section>
-        <h2>Userflow</h2>
-        <img src="asset/Documentation/UserFlow.png" alt="UserFlow">
+      <section class="top50">
+        <h2>UserFlow</h2>
+        <img src="asset/Documentation/UserFlow.png" alt="UserFlow" class="w100">
       </section>
 
-      <!-- SECTION 8 - LOW FIDELITY -->
-      <section>
+      <!-- SECTION 8 - LA SOLUTION -->
+      <section class="top50">
         <h2>La solution</h2>
-        <h3> Low FI</h3>
-        <div class="">
-          <img src="asset/Documentation/Pages 0-2 LowFi.png" alt="premiere page de LowFi">
-          <img src="asset/Documentation/Pages 3-5 LowFi.png" alt="Deuxième Page de LowFi">
-          <img src="asset/Documentation/Pages 6-8 LowFi.png" alt="">
-          <img src="asset/Documentation/Page 9-11 LowFi.png" alt="">
 
+        <!-- SECTION 8.1 - LOW FI -->
+        <section class="top50">
+          <h3> LowFI</h3>
+          <div class=" horizontal-scrolling-items ">
+            <img class="imgSolution imgSolution horizontal-scroll-item item-1"
+              src="asset/Documentation/Pages 0-2 LowFi.png" alt="premiere page de LowFi">
+            <img class="imgSolution imgSolution horizontal-scroll-item item-2"
+              src="asset/Documentation/Pages 3-5 LowFi.png" alt="Deuxième Page de LowFi">
+            <img class="imgSolution imgSolution horizontal-scroll-item item-3"
+              src="asset/Documentation/Pages 6-8 LowFi.png" alt="">
+            <img class="imgSolution imgSolution horizontal-scroll-item item-4"
+              src="asset/Documentation/Page 9-11 LowFi.png" alt="">
+          </div>
+        </section>
 
-        </div>
-        <h3>Mid FI</h3>
-        <div>
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
-        </div>
-        <h3>Hight FI - Prototype</h3>
-        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
-          src="https://embed.figma.com/proto/kCIWkk5yXzfPAzZvAfUUuv/Assia---Cynthia---Hermine---J%C3%A9r%C3%A9mie?node-id=3888-1473&p=f&scaling=scale-down&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=3877%3A1533&embed-host=share"
-          allowfullscreen></iframe>
+        <!-- SECTION 8.2 - MID FI -->
+        <section class="top50 ">
+          <h3>MidFI</h3>
+          <div class="container"> <!-- Photos MidFi -->
 
+            <div class="items-container  spaceBetween">
+            <div class="item">
+              <img src="asset/Documentation/Page 2 MidFy.png"  class="w100" alt="">
+              <p class="legend-item">ceci est une legende</p>
+            </div>
+            
+            <div class="item">
+              <img src="asset/Documentation/Page 2 MidFy.png" class="w100"  alt="">
+              <p class="legend-item">ceci est une legende</p>
+            </div>
+
+            <div class="item">
+              <img src="asset/Documentation/Page 2 MidFy.png"  class="w100" alt="">
+              <p class="legend-item">ceci est une legende</p>
+            </div>
+
+            <div class="item">
+              <img src="asset/Documentation/Page 2 MidFy.png"  class="w100" alt="">
+              <p class="legend-item">ceci est une legende</p>
+            </div>
+
+            <div class="item">
+              <img src="asset/Documentation/Page 2 MidFy.png"  class="w100" alt="">
+              <p class="legend-item">ceci est une legende</p>
+            </div>
+            </div>
+           
+
+          </div>
+        </section>
+
+        <!-- SECTION 8.3 - HIGHT FI -->
+        <section class="top50">
+          <h3>HightFI - Prototype</h3>
+          <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+            src="https://embed.figma.com/proto/kCIWkk5yXzfPAzZvAfUUuv/Assia---Cynthia---Hermine---J%C3%A9r%C3%A9mie?node-id=3888-1473&p=f&scaling=scale-down&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=3877%3A1533&embed-host=share"
+            allowfullscreen></iframe>
+        </section>
       </section>
 
-      <!-- SECTION 9 - MID FIDELITY -->
-      <section>
-        <div> <!-- Photos MidFi -->
-          <img src="asset/Documentation/Page de lancement MidFy.png" alt="">
-          <img src="asset/Documentation/Page 2 MidFy.png" alt="">
-          <img src="asset/Documentation/Page 3 MidFy.png" alt="">
-          <img src="asset/Documentation/Page 4 MidFy.png" alt="">
-          <img src="asset/Documentation/Page 5 MidFy.png" alt="">
-          <img src="asset/Documentation/Page 6 MidFy.png" alt="">
-          <img src="asset/Documentation/Page 7 MidFy.png" alt="">
-          <img src="asset/Documentation/Page 8 MidFy.png" alt="">
-          <img src="asset/Documentation/Page 9 MidFy.png" alt="">
-        </div>
-      </section>
-
-      <!-- SECTION 10 - HIGH FIDELITY -->
-      <section>
-
-      </section>
-
-      <!-- SECTION 11 - RETOURS TESTS UTILISATEURS -->
-      <section>
+      <!-- SECTION 9 - RETOURS TESTS UTILISATEURS -->
+      <section class=" flex top50">
         <div> <!-- Carte 1 -->
           <h3>“Fixer les barres en haut et en bas pour qu’elles ne bougent pas lors du scroll”</h3>
           <div>
@@ -201,11 +244,11 @@
 
       </section>
 
-      <!-- SECTION 12 - NOS FUTURES AMELIORATIONS -->
-      <section>
+      <!-- SECTION 10 - NOS FUTURES AMELIORATIONS -->
+      <section class="top50">
         <div>
-          <h3>Nos futures améliorations :</h3>
-          <ol>
+          <h2>Nos futures améliorations :</h2>
+          <ol class="top30">
             <li>1. Éviter que les icônes de logement et d’activités sportives ne se déplacent lorsque le point joker
               apparaît.</li>
             <li>2. Fixer l’en-tête de la page alternative.</li>
@@ -219,26 +262,7 @@
 
   <!-- FOOTER -->
   <footer>
-    <header>
-      <div>
-        <img src="" alt="LOGO">
-        <a href="">Télécharger L'Application</a>
-      </div>
-      <div>
-        <ul>
-          <li>Accueil</li>
-          <li>L’histoire de GreenStay</li>
-          <li> Pourquoi nous choisir</li>
-          <li>Comment ça marche</li>
-          <li>Ils en parle mieux que nous </li>
-        </ul>
-      </div>
-      <div>
-        <a href=""><img src="asset/Documentation/" alt=""></a>
-        <a href=""><img src="asset/Landing page/icons linkedin.png"alt=""></a>
-        <a href=""><img src="asset/Landing page/icons facebook.png" alt=""></a>
-        a
-      </div>
+
   </footer>
 
 

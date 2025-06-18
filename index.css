@@ -24,9 +24,13 @@ header {
 .coloredHeader {
     background-color: #fff;
 }
-
+ 
+/*GAP*/
 .gap22 {
     gap: 22px;
+}
+.gap30{
+    gap: 30px;
 }
 
 header>nav {
@@ -167,6 +171,9 @@ h3 {
     width: 20%;
 }
 
+.w25{
+    width: 25%;
+}
 .w30 {
     width: 30%;
 }
@@ -221,6 +228,10 @@ h3 {
     margin-top: 50px;
 }
 
+.top60 {
+    margin-top: 60px;
+}
+
 .top70{
     margin-top: 70px;
 }
@@ -233,8 +244,17 @@ h3 {
     margin-top: 50px;
 }
 
+.margAuto{
+    margin: auto;
+}
+
+/*PADDING*/
 .pad50 {
     padding-top: 50px;
+}
+
+.pad150{
+    padding: 150px;
 }
 
 
@@ -297,3 +317,25 @@ h3 {
 .weight{
     font-weight: 600;
 }
+
+/*CARTE AVIS CLIENTS*/
+
+.cardAvis {
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 20px;
+    color: #006C4C;
+    text-align: center;
+    align-items: center;
+    line-height: 25px;
+    margin-bottom: 50px;
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+}
+
+/*TYPO*/
+.italic{
+    font-style: italic;
+    font-weight: 300;
+}
+
