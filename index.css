@@ -25,13 +25,6 @@ header {
     background-color: #fff;
 }
  
-/*GAP*/
-.gap22 {
-    gap: 22px;
-}
-.gap30{
-    gap: 30px;
-}
 
 header>nav {
     margin: auto;
@@ -103,6 +96,14 @@ h3 {
 
 .block {
     display: inline-block;
+}
+
+/*GAP*/
+.gap22 {
+    gap: 22px;
+}
+.gap30{
+    gap: 30px;
 }
 
 
@@ -268,7 +269,8 @@ h3 {
 .marg15{
     margin-bottom: 15px;
 }
-    /*COULEUR*/
+
+/*COULEUR*/
 
 .green {
     color: #285430;
@@ -294,6 +296,10 @@ h3 {
 
 .line{
     line-height: 24px;
+}
+
+.lineEtapes{
+    line-height: 50px;
 }
 
 /*CHIFFRES*/
@@ -356,6 +362,11 @@ h3 {
     font-style: medium;
 }
 
+.inter {
+    font-family: "Urbanist", sans-serif;
+    font-weight: 200;
+
+}
 
 /*Carousel*/
 #photos{
@@ -375,7 +386,18 @@ h3 {
 .li-selected{
     background-color: #006C4C;
     color: #fff;
+    border-radius: 10px;
+    
 }
 .img-selected{
     opacity: 1 !important;
 }
+
+#liste li{
+    padding:0 16px;
+}
+
+
+
+
+
