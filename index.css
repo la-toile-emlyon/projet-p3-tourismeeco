@@ -65,6 +65,7 @@ h3 {
 }
 
 /* flexbox */
+
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -99,6 +100,7 @@ h3 {
 }
 
 /*GAP*/
+
 .gap22 {
     gap: 22px;
 }
@@ -172,6 +174,9 @@ h3 {
 
 /*WIDTH*/
 
+.w10 {
+    width: 10%;
+}
 .w20 {
     width: 20%;
 }
@@ -218,6 +223,11 @@ h3 {
     width: 100%;
 }
 
+/*MARGIN TOP*/
+
+.top5 {
+    margin-top: 5px;
+}
 .top10{
     margin-top: 10px;
 }
@@ -255,6 +265,9 @@ h3 {
 
 /*PADDING*/
 
+.p50{
+    padding: 50px;
+}
 .pad50 {
     padding-top: 50px;
 }
@@ -266,6 +279,14 @@ h3 {
 .padBottom50{
     padding-bottom: 50px;
 }
+
+.padRightLeft {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/*MARGIN*/
+
 .marg15{
     margin-bottom: 15px;
 }
@@ -307,12 +328,13 @@ h3 {
 .cercleVert {
     background-color: #006C4C;
     color: white;
-    border-radius: 100%;
-    padding: 15px;
+    border-radius: 90%;
+    padding: 20px;
+
 }
 
 .size{
-    font-size: 60px;
+    font-size: 50px;
 }
 
 /*CARTE*/
@@ -363,7 +385,7 @@ h3 {
 }
 
 .inter {
-    font-family: "Urbanist", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 200;
 
 }

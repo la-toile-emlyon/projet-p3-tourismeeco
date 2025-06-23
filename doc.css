@@ -67,7 +67,7 @@ p {
 }
 
 .logo {
-    width: 64px !important;
+    width: 100px;
 
 }
 
@@ -140,6 +140,21 @@ p {
     display: inline-block;
     border-radius: 50px;
     font-family: "Urbanist", sans-serif;
+}
+
+
+/*TYPO*/
+
+.urbanist {
+    font-weight: 300;
+    font-family: "Urbanist", sans-serif;
+    font-style: medium;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+
 }
 
 
@@ -242,7 +257,7 @@ p {
     margin-bottom: 50px;
 }
 .marginleft{
-    margin-left: 0px;
+    margin-left: 25px;
 }
 .h100 {
     height: 100%;
