@@ -35,3 +35,6 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-scrollbar',
   },
 });
+
+// lib aos
+AOS.init()
