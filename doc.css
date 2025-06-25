@@ -76,6 +76,7 @@ p {
 
 .logo {
     width: 100px;
+    filter: saturate(2) brightness(10) contrast(10) grayscale(1);
 
 }
 section{
